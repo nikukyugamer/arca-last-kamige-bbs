@@ -1,3 +1,9 @@
+# Yarn v3
+.yarn/*
+!.yarn/releases/
+
+tmp/*
+
 # Logs
 logs
 *.log
