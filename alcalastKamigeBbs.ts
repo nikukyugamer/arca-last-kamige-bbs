@@ -1,9 +1,9 @@
-import { getMessages } from './messages'
+import { getComments } from './getComments'
 import { prismaAction } from './database'
 
 class AlcalastKamigeBbs {
   constructor() {
-    getMessages()
+    getComments()
   }
 
   execute() {
