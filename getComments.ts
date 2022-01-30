@@ -6,7 +6,7 @@ type ResponseData = {
     nickname: string
     body: string
     image_url: string
-    comment_number: number
+    comment_no: number
     good_vote: number
     bad_vote: number
     created_at: string
@@ -20,21 +20,14 @@ type CommentJsonObject = {
   nickname: string
   body: string
   image_url: string
-  comment_number: number
+  comment_no: number
   good_vote: number
   bad_vote: number
   created_at: string
 }
 
 export const getComments = () => {
-  const commentsJson: ResponseData = JSON.parse(fs.readFileSync('out/sampleResponse.json', 'utf8'));
+  const responseDataJson: ResponseData = JSON.parse(fs.readFileSync('out/sampleResponse.json', 'utf8'));
 
-  for (const key in commentsJson) {
-    if (key !== 'comments') { continue }
-
-    const comments: Array<any> = commentsJson[key]
-    comments.forEach((comment: CommentJsonObject) => {
-      console.log(comment.body)
-    })
-  }
+  return responseDataJson['comments']
 }

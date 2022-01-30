@@ -1,21 +1,41 @@
 import { PrismaClient } from '@prisma/client'
 
+type CommentJsonObject = {
+  id: string
+  nickname: string
+  body: string
+  image_url: string
+  comment_no: number
+  good_vote: number
+  bad_vote: number
+  created_at: string
+}
+
 const prisma: any = new PrismaClient()
 
-export const prismaAction = async () =>{
+// TODO: createMany を使って書き直す？（そうすると既存データのスキップできなそう）
+// https://www.prisma.io/docs/concepts/components/prisma-client/crud
+export const prismaAction: any = async (comment: CommentJsonObject) =>{
   await prisma.comment.create({
     data: {
-      uuid: 'f2387288-42fe-485f-8917-365d28692ce6',
-      nickname: '名無しさん',
-      body: 'プレイ日数900日のハンデを覆すために必要な課金額と時間を考えてみよう\r\n1キャラ育成完了までに必要なリソースがどれだけ異常か理解できるぞ！',
-      image_url: '',
-      comment_number: 5988,
-      good_vote: 0,
-      bad_vote: 0,
-      posted_at: new Date(Date.parse('2022-01-30T03:45:13.504437Z'))
+      uuid: comment.id,
+      nickname: comment.nickname,
+      body: comment.body,
+      image_url: comment.image_url,
+      comment_number: comment.comment_no,
+      good_vote: comment.good_vote,
+      bad_vote: comment.bad_vote,
+      posted_at: new Date(Date.parse(comment.created_at))
     },
   })
+}
 
-  const allComments = await prisma.comment.findMany()
-  console.log(allComments)
+export const isAlreadyExists: any = async (comment: CommentJsonObject) => {
+  const commentCount = await prisma.comment({
+    where: {
+      uuid: comment.id
+    }
+  })
+
+  return commentCount.length > 0
 }
