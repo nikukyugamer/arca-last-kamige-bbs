@@ -9,3 +9,17 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Message {
+  id              Int @id @default(autoincrement())
+  uuid            String
+  nickname        String
+  body            String
+  image_url       String
+  comment_number  Int
+  good_vote       Int
+  bad_vote        Int
+  posted_at       DateTime
+  updatedAt       DateTime
+  createdAt       DateTime
+}
