@@ -21,6 +21,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prisma/client@npm:3.8.1":
+  version: 3.8.1
+  resolution: "@prisma/client@npm:3.8.1"
+  dependencies:
+    "@prisma/engines-version": 3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+  peerDependencies:
+    prisma: "*"
+  peerDependenciesMeta:
+    prisma:
+      optional: true
+  checksum: 7139bbfad7cc1c1e235b02925e171e68370f50c1112e72ecacca0d13651ba808f1a63391dbbb11916b459a6fe9de699a4f7a8a12e390aa3ba394747890729496
+  languageName: node
+  linkType: hard
+
+"@prisma/engines-version@npm:3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f":
+  version: 3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
+  resolution: "@prisma/engines-version@npm:3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f"
+  checksum: b41892214631a0f51a422ada47c7357cf757337bc17af4ad5f43ce2943f32c2eddc7f0517f57b95ff541f696ced8de373a46e22a91c6918262d2b28455aa733f
+  languageName: node
+  linkType: hard
+
 "@prisma/engines@npm:3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f":
   version: 3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f
   resolution: "@prisma/engines@npm:3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f"
@@ -101,6 +122,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "alcalast-kamige-bbs@workspace:."
   dependencies:
+    "@prisma/client": 3.8.1
     agent-base: ^6.0.2
     axios: ^0.25.0
     balanced-match: ^1.0.2
