@@ -1,4 +1,4 @@
-import { getComments } from './getComments'
+import { getCommentsFromJsonFile } from './getComments'
 import { prismaAction, isAlreadyExists } from './database'
 
 type CommentJsonObject = {
@@ -28,6 +28,13 @@ class AlcalastKamigeBbs {
   }
 }
 
-const comments: Array<CommentJsonObject> = getComments()
-const alcalastBbsAction: any = new AlcalastKamigeBbs()
-alcalastBbsAction.writeCommentsToDatabase(comments)
+const importFiles: Array<string> = [
+  'out/sampleResponse.json',
+]
+
+importFiles.forEach((file: string) => {
+  const alcalastBbsAction: any = new AlcalastKamigeBbs()
+  const comments: Array<CommentJsonObject> = getCommentsFromJsonFile(file)
+
+  alcalastBbsAction.writeCommentsToDatabase(comments)
+})

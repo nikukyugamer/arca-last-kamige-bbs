@@ -26,8 +26,8 @@ type CommentJsonObject = {
   created_at: string
 }
 
-export const getComments = () => {
-  const responseDataJson: ResponseData = JSON.parse(fs.readFileSync('out/sampleResponse.json', 'utf8'));
+export const getCommentsFromJsonFile = (jsonFile: any) => {
+  const responseDataJson: ResponseData = JSON.parse(fs.readFileSync(jsonFile, 'utf8'));
 
   return responseDataJson['comments']
 }
