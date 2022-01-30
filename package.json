@@ -53,11 +53,20 @@
     "yazl": "^2.5.1"
   },
   "devDependencies": {
-    "ts-node": "^10.4.0"
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
   },
   "homepage": "https://github.com/nikukyugamer/alcalast-kamige-bbs#readme",
   "keywords": [
     "playwright"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "main": "app.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikukyugamer/alcalast-kamige-bbs#readme"
+  },
+  "scripts": {
+    "dev:playwright:exec": "tsc appOnPlaywright.ts && node appOnPlaywright.js"
+  }
 }
