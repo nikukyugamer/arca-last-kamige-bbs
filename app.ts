@@ -1,4 +1,5 @@
 import axios, { AxiosResponse, AxiosError } from 'axios'
+import fs from 'fs'
 
 type ResponseData = {
   comments: Array<{
@@ -37,18 +38,33 @@ const allGet: any = async () => {
   const responseData: ResponseData = await apiResponseData(null)
 
   console.log('========== 1st comment ==========')
-  console.log(responseData.comments[0])
+  fs.writeFileSync('./out/alcalast_1.json', JSON.stringify(responseData))
 
-  let latestCursor = responseData.cursor
+  let latestCursor: string = responseData.cursor
+  // CLI実行にしてこの値を渡せるようにしたい
+  const numberOfGettingPages: number = 5
 
-  for (let i = 2; i < 5; i++) {
-    const latestResponseData = await apiResponseData(latestCursor)
+  for (let i = 2; i < numberOfGettingPages; i++) {
+    // 仮に全部取得する場合には数千リクエストが飛んでしまうので、十分な間隔を開けること
+    // CLI実行にしてこの値を渡せるようにしたい
+    const intervalMsec: number = 10000
+    await sleep(intervalMsec);
 
+    const latestResponseData: ResponseData = await apiResponseData(latestCursor)
+
+    // FIXME: 5ケタパディング
     console.log(`========== ${i}th comment ==========`)
-    console.log(latestResponseData.comments[0])
+    fs.writeFileSync(`./out/alcalast_${i}.json`, JSON.stringify(latestResponseData))
 
     latestCursor = latestResponseData.cursor
   }
+}
+
+// https://stackoverflow.com/questions/14249506/how-can-i-wait-in-node-js-javascript-l-need-to-pause-for-a-period-of-time
+const sleep = (msec: number) => {
+  return new Promise((resolve) => {
+    setTimeout(resolve, msec);
+  });
 }
 
 // created_at は例えば Ruby だと Time.parse(t += 'JST') で Timeクラス として取得できる
