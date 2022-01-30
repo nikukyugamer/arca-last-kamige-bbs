@@ -77,7 +77,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^17.0.13":
+"@types/node@npm:*, @types/node@npm:17.0.13":
   version: 17.0.13
   resolution: "@types/node@npm:17.0.13"
   checksum: 8b87c850c1604c65e3474bd03d122914464b7970caed20f65f4a7706ab429353b896a3916be4d2581164eccda9e3dd95c338fbccf686ff85a824c40d15e8f3fa
@@ -123,9 +123,9 @@ __metadata:
   resolution: "alcalast-kamige-bbs@workspace:."
   dependencies:
     "@prisma/client": 3.8.1
-    "@types/node": ^17.0.13
+    "@types/node": 17.0.13
     agent-base: ^6.0.2
-    axios: ^0.25.0
+    axios: 0.25.0
     balanced-match: ^1.0.2
     brace-expansion: ^1.1.11
     buffer-crc32: ^0.2.13
@@ -154,7 +154,7 @@ __metadata:
     playwright-chromium: ^1.18.1
     playwright-core: ^1.18.1
     pngjs: ^5.0.0
-    prisma: ^3.8.1
+    prisma: 3.8.1
     progress: ^2.0.3
     proper-lockfile: ^4.1.2
     proxy-from-env: ^1.1.0
@@ -166,8 +166,8 @@ __metadata:
     socks: ^2.6.1
     socks-proxy-agent: ^6.1.1
     stack-utils: ^2.0.5
-    ts-node: ^10.4.0
-    typescript: ^4.5.5
+    ts-node: 10.4.0
+    typescript: 4.5.5
     wrappy: ^1.0.2
     ws: ^7.5.6
     yauzl: ^2.10.0
@@ -182,7 +182,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.25.0":
+"axios@npm:0.25.0":
   version: 0.25.0
   resolution: "axios@npm:0.25.0"
   dependencies:
@@ -491,7 +491,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:^3.8.1":
+"prisma@npm:3.8.1":
   version: 3.8.1
   resolution: "prisma@npm:3.8.1"
   dependencies:
@@ -600,7 +600,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.4.0":
+"ts-node@npm:10.4.0":
   version: 10.4.0
   resolution: "ts-node@npm:10.4.0"
   dependencies:
@@ -636,7 +636,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.5.5":
+"typescript@npm:4.5.5":
   version: 4.5.5
   resolution: "typescript@npm:4.5.5"
   bin:
@@ -646,7 +646,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.5.5#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.5.5#~builtin<compat/typescript>":
   version: 4.5.5
   resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"
   bin:
