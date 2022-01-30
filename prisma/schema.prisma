@@ -10,16 +10,16 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Message {
+model Comment {
   id              Int @id @default(autoincrement())
-  uuid            String
+  uuid            String @unique
   nickname        String
   body            String
   image_url       String
-  comment_number  Int
+  comment_number  Int @unique
   good_vote       Int
   bad_vote        Int
   posted_at       DateTime
-  updatedAt       DateTime
-  createdAt       DateTime
+  updatedAt       DateTime @updatedAt
+  createdAt       DateTime @default(now())
 }

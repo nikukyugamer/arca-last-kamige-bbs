@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE "Message" (
+CREATE TABLE "Comment" (
     "id" SERIAL NOT NULL,
     "uuid" TEXT NOT NULL,
     "nickname" TEXT NOT NULL,
@@ -10,7 +10,13 @@ CREATE TABLE "Message" (
     "bad_vote" INTEGER NOT NULL,
     "posted_at" TIMESTAMP(3) NOT NULL,
     "updatedAt" TIMESTAMP(3) NOT NULL,
-    "createdAt" TIMESTAMP(3) NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
-    CONSTRAINT "Message_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "Comment_pkey" PRIMARY KEY ("id")
 );
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Comment_uuid_key" ON "Comment"("uuid");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Comment_comment_number_key" ON "Comment"("comment_number");
