@@ -77,7 +77,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^17.0.13":
   version: 17.0.13
   resolution: "@types/node@npm:17.0.13"
   checksum: 8b87c850c1604c65e3474bd03d122914464b7970caed20f65f4a7706ab429353b896a3916be4d2581164eccda9e3dd95c338fbccf686ff85a824c40d15e8f3fa
@@ -123,6 +123,7 @@ __metadata:
   resolution: "alcalast-kamige-bbs@workspace:."
   dependencies:
     "@prisma/client": 3.8.1
+    "@types/node": ^17.0.13
     agent-base: ^6.0.2
     axios: ^0.25.0
     balanced-match: ^1.0.2

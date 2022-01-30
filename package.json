@@ -54,6 +54,7 @@
     "yazl": "^2.5.1"
   },
   "devDependencies": {
+    "@types/node": "^17.0.13",
     "axios": "^0.25.0",
     "prisma": "^3.8.1",
     "ts-node": "^10.4.0",
