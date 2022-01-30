@@ -14,6 +14,7 @@ type ResponseData = {
   cursor: string
 }
 
+// created_at は例えば Ruby だと Time.parse(t += 'JST') で Timeクラス として取得できる
 type CommentObject = {
   id: string
   nickname: string
@@ -25,13 +26,15 @@ type CommentObject = {
   created_at: string
 }
 
-const messagesJson: ResponseData = JSON.parse(fs.readFileSync('out/sampleResponse.json', 'utf8'));
+export const getMessages = () => {
+  const messagesJson: ResponseData = JSON.parse(fs.readFileSync('out/sampleResponse.json', 'utf8'));
 
-for (const key in messagesJson) {
-  if (key !== 'comments') { continue }
+  for (const key in messagesJson) {
+    if (key !== 'comments') { continue }
 
-  const comments: Array<any> = messagesJson[key]
-  comments.forEach((comment: CommentObject) => {
-    console.log(comment.body)
-  })
+    const comments: Array<any> = messagesJson[key]
+    comments.forEach((comment: CommentObject) => {
+      console.log(comment.body)
+    })
+  }
 }

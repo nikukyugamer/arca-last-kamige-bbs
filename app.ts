@@ -34,11 +34,11 @@ const apiResponseData: any = async (cursor: string | null) => {
     })
 }
 
-const allGet: any = async () => {
+export const allGet = async () => {
   const responseData: ResponseData = await apiResponseData(null)
 
   console.log('========== 1st comments ==========')
-  fs.writeFileSync('./out/alcalast_1.json', JSON.stringify(responseData))
+  fs.writeFileSync(`./out/alcalast_${'1'.padStart(5, '0')}.json`, JSON.stringify(responseData))
 
   let latestCursor: string = responseData.cursor
   // CLI実行にしてこの値を渡せるようにしたい
@@ -66,6 +66,3 @@ const sleep = (msec: number) => {
     setTimeout(resolve, msec);
   });
 }
-
-// created_at は例えば Ruby だと Time.parse(t += 'JST') で Timeクラス として取得できる
-allGet()
