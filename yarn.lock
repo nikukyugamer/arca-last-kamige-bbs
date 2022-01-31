@@ -126,7 +126,7 @@ __metadata:
     "@types/node": 17.0.13
     agent-base: ^6.0.2
     axios: 0.25.0
-    balanced-match: ^1.0.2
+    balanced-match: ^2.0.0
     brace-expansion: ^1.1.11
     buffer-crc32: ^0.2.13
     commander: ^8.3.0
@@ -191,10 +191,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"balanced-match@npm:^1.0.0, balanced-match@npm:^1.0.2":
+"balanced-match@npm:^1.0.0":
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2"
   checksum: 9706c088a283058a8a99e0bf91b0a2f75497f185980d9ffa8b304de1d9e58ebda7c72c07ebf01dadedaac5b2907b2c6f566f660d62bd336c3468e960403b9d65
+  languageName: node
+  linkType: hard
+
+"balanced-match@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "balanced-match@npm:2.0.0"
+  checksum: 9a5caad6a292c5df164cc6d0c38e0eedf9a1413f42e5fece733640949d74d0052cfa9587c1a1681f772147fb79be495121325a649526957fd75b3a216d1fbc68
   languageName: node
   linkType: hard
 
