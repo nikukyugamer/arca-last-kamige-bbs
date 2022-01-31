@@ -153,7 +153,7 @@ __metadata:
     pend: ^1.2.0
     playwright-chromium: ^1.18.1
     playwright-core: ^1.18.1
-    pngjs: ^5.0.0
+    pngjs: ^6.0.0
     prisma: 3.8.1
     progress: ^2.0.3
     proper-lockfile: ^4.1.2
@@ -518,6 +518,13 @@ __metadata:
   version: 5.0.0
   resolution: "pngjs@npm:5.0.0"
   checksum: 04e912cc45fb9601564e2284efaf0c5d20d131d9b596244f8a6789fc6cdb6b18d2975a6bbf7a001858d7e159d5c5c5dd7b11592e97629b7137f7f5cef05904c8
+  languageName: node
+  linkType: hard
+
+"pngjs@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "pngjs@npm:6.0.0"
+  checksum: ab6c285086060087097eab9fe6b5a528a24f9e79c03dea2b4fd6264ed4fdb5beff4a3257eeeaf2a9dc18249b539609c2a4e4013c567164a1f6b5ba2c974d5ecb
   languageName: node
   linkType: hard
 
