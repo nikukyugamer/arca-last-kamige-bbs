@@ -137,7 +137,7 @@ __metadata:
     extract-zip: ^2.0.1
     fd-slicer: ^1.1.0
     fs.realpath: ^1.0.0
-    get-stream: ^5.2.0
+    get-stream: ^6.0.0
     glob: ^7.2.0
     graceful-fs: ^4.2.9
     https-proxy-agent: ^5.0.0
@@ -328,12 +328,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-stream@npm:^5.1.0, get-stream@npm:^5.2.0":
+"get-stream@npm:^5.1.0":
   version: 5.2.0
   resolution: "get-stream@npm:5.2.0"
   dependencies:
     pump: ^3.0.0
   checksum: 8bc1a23174a06b2b4ce600df38d6c98d2ef6d84e020c1ddad632ad75bac4e092eeb40e4c09e0761c35fc2dbc5e7fff5dab5e763a383582c4a167dd69a905bd12
+  languageName: node
+  linkType: hard
+
+"get-stream@npm:^6.0.0":
+  version: 6.0.1
+  resolution: "get-stream@npm:6.0.1"
+  checksum: e04ecece32c92eebf5b8c940f51468cd53554dcbb0ea725b2748be583c9523d00128137966afce410b9b051eb2ef16d657cd2b120ca8edafcf5a65e81af63cad
   languageName: node
   linkType: hard
 

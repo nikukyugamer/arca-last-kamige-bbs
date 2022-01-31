@@ -20,7 +20,7 @@
     "extract-zip": "^2.0.1",
     "fd-slicer": "^1.1.0",
     "fs.realpath": "^1.0.0",
-    "get-stream": "^5.2.0",
+    "get-stream": "^6.0.0",
     "glob": "^7.2.0",
     "graceful-fs": "^4.2.9",
     "https-proxy-agent": "^5.0.0",
