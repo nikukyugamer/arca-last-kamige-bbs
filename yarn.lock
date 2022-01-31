@@ -133,7 +133,7 @@ __metadata:
     concat-map: ^0.0.1
     debug: ^4.3.3
     end-of-stream: ^1.4.4
-    escape-string-regexp: ^2.0.0
+    escape-string-regexp: ^5.0.0
     extract-zip: ^2.0.1
     fd-slicer: ^1.1.0
     fs.realpath: ^1.0.0
@@ -282,6 +282,13 @@ __metadata:
   version: 2.0.0
   resolution: "escape-string-regexp@npm:2.0.0"
   checksum: 9f8a2d5743677c16e85c810e3024d54f0c8dea6424fad3c79ef6666e81dd0846f7437f5e729dfcdac8981bc9e5294c39b4580814d114076b8d36318f46ae4395
+  languageName: node
+  linkType: hard
+
+"escape-string-regexp@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "escape-string-regexp@npm:5.0.0"
+  checksum: 20daabe197f3cb198ec28546deebcf24b3dbb1a5a269184381b3116d12f0532e06007f4bc8da25669d6a7f8efb68db0758df4cd981f57bc5b57f521a3e12c59e
   languageName: node
   linkType: hard
 

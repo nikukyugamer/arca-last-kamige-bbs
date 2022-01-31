@@ -16,7 +16,7 @@
     "concat-map": "^0.0.1",
     "debug": "^4.3.3",
     "end-of-stream": "^1.4.4",
-    "escape-string-regexp": "^2.0.0",
+    "escape-string-regexp": "^5.0.0",
     "extract-zip": "^2.0.1",
     "fd-slicer": "^1.1.0",
     "fs.realpath": "^1.0.0",
