@@ -132,6 +132,7 @@ __metadata:
     commander: ^9.0.0
     concat-map: ^0.0.1
     debug: ^4.3.3
+    dotenv: ^15.0.0
     end-of-stream: ^1.4.4
     escape-string-regexp: ^5.0.0
     extract-zip: ^2.0.1
@@ -266,6 +267,13 @@ __metadata:
   version: 4.0.2
   resolution: "diff@npm:4.0.2"
   checksum: f2c09b0ce4e6b301c221addd83bf3f454c0bc00caa3dd837cf6c127d6edf7223aa2bbe3b688feea110b7f262adbfc845b757c44c8a9f8c0c5b15d8fa9ce9d20d
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^15.0.0":
+  version: 15.0.0
+  resolution: "dotenv@npm:15.0.0"
+  checksum: be5d852b2ad1708780e7038481c0687ce4bb9edf354d439872511e966a5f28c083f296e1d1c182256d695bfdd67e320382eb3b0f2e9d83efa3615cd1757257ab
   languageName: node
   linkType: hard
 
