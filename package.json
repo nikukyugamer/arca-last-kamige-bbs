@@ -34,8 +34,6 @@
     "once": "^1.4.0",
     "path-is-absolute": "^1.0.1",
     "pend": "^1.2.0",
-    "playwright-chromium": "^1.18.1",
-    "playwright-core": "^1.18.1",
     "pngjs": "^6.0.0",
     "progress": "^2.0.3",
     "proper-lockfile": "^4.1.2",
