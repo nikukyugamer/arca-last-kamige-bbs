@@ -31,7 +31,7 @@ export const prismaAction: any = async (comment: CommentJsonObject) =>{
 }
 
 export const isAlreadyExists: any = async (comment: CommentJsonObject) => {
-  const commentCount = await prisma.comment({
+  const commentCount = await prisma.comment.findMany({
     where: {
       uuid: comment.id
     }
