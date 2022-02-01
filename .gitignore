@@ -1,3 +1,7 @@
+.docker
+.devcontainer
+.vscode
+.history
 .env
 tmp/*
 appOnPlaywright.js
