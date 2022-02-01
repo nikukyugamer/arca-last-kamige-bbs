@@ -1,5 +1,6 @@
 import axios, { AxiosResponse, AxiosError } from 'axios'
 import fs from 'fs'
+import 'dotenv/config'
 
 type ResponseData = {
   comments: Array<{
@@ -20,6 +21,16 @@ const apiResponseData: any = async (cursor: string | null) => {
 
   if (cursor !== null) {
     requestUrl = `${requestUrl}false&cursor=${cursor}`
+  }
+
+  const axiosProxyHost: string | undefined = process.env.AXIOS_PROXY_HOST
+  const axiosProxyPort: number = Number(process.env.AXIOS_PROXY_PORT)
+
+  if (axiosProxyHost !== undefined && !Number.isNaN(axiosProxyPort)) {
+    axios.defaults.proxy = {
+      host: axiosProxyHost,
+      port: axiosProxyPort
+    }
   }
 
   return axios.get(requestUrl)
