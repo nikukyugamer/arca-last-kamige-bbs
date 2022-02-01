@@ -1,6 +1,6 @@
 const { chromium } = require('playwright-chromium')
 
-const alcalastKamigeBbs = async () => {
+const arcalastKamigeBbs = async () => {
   const browser = await chromium.launch()
   const context = await browser.newContext()
   const page = await context.newPage()
@@ -34,4 +34,4 @@ const alcalastKamigeBbs = async () => {
   await browser.close()
 }
 
-alcalastKamigeBbs()
+arcalastKamigeBbs()

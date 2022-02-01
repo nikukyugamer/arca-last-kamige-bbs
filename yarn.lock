@@ -118,9 +118,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"alcalast-kamige-bbs@workspace:.":
+"arcalast-kamige-bbs@workspace:.":
   version: 0.0.0-use.local
-  resolution: "alcalast-kamige-bbs@workspace:."
+  resolution: "arcalast-kamige-bbs@workspace:."
   dependencies:
     "@prisma/client": 3.8.1
     "@types/node": 17.0.13

@@ -38,11 +38,11 @@ export const allGet = async () => {
   const responseData: ResponseData = await apiResponseData(null)
 
   console.log('========== 1st comments ==========')
-  fs.writeFileSync(`./out/alcalast_${'1'.padStart(5, '0')}.json`, JSON.stringify(responseData))
+  fs.writeFileSync(`./out/arcalast_${'1'.padStart(5, '0')}.json`, JSON.stringify(responseData))
 
   let latestCursor: string = responseData.cursor
   // CLI実行にしてこの値を渡せるようにしたい
-  const numberOfGettingPages: number = 5
+  const numberOfGettingPages: number = 6
 
   for (let i = 2; i < numberOfGettingPages; i++) {
     // 仮に全部取得する場合には数千リクエストが飛んでしまうので、十分な間隔を開けること
@@ -54,7 +54,7 @@ export const allGet = async () => {
 
     const fileIndexNumberString: string = i.toString().padStart(5, '0')
     console.log(`========== ${fileIndexNumberString}th comments ==========`)
-    fs.writeFileSync(`./out/alcalast_${fileIndexNumberString}.json`, JSON.stringify(latestResponseData))
+    fs.writeFileSync(`./out/arcalast_${fileIndexNumberString}.json`, JSON.stringify(latestResponseData))
 
     latestCursor = latestResponseData.cursor
   }
