@@ -1,5 +1,5 @@
 import { getCommentsFromJsonFile } from './getComments'
-import { prismaAction, isAlreadyExists } from './database'
+import { createCommentRecord, isAlreadyExists } from './database'
 import { saveResponseJsonFiles } from './saveResponseJsonFiles'
 
 type CommentJsonObject = {
@@ -17,18 +17,19 @@ class ArcalastKamigeBbs {
   constructor() {}
 
   writeCommentToDatabase(comment: CommentJsonObject) {
-    prismaAction(comment)
+    createCommentRecord(comment)
   }
 
-  writeCommentsToDatabase(comments: Array<CommentJsonObject>) {
-    comments.forEach((comment: CommentJsonObject) => {
+  async writeCommentsToDatabase(comments: Array<CommentJsonObject>) {
+    for (let i = 0; i < comments.length; i++) {
+      let comment: CommentJsonObject = comments[i]
+
       if (isAlreadyExists(comment)) {
-        // console.log(`ALREADY EXISTS: ${comment}`)
-        console.dir(comment)
+        console.log(`ALREADY EXISTS "comment.id": ${comment.id}`)
       } else {
-        // this.writeCommentToDatabase(comment)
+        this.writeCommentToDatabase(comment)
       }
-    })
+    }
   }
 
   saveJsonFiles() {
@@ -36,16 +37,16 @@ class ArcalastKamigeBbs {
   }
 }
 
-const arcalastBbsAction: any = new ArcalastKamigeBbs()
+const arcalastBbsObject: any = new ArcalastKamigeBbs()
 
-// const importFiles: Array<string> = [
-//   'out/sampleResponse.json',
-// ]
+const importFiles: Array<string> = [
+  'out/sampleResponse.json',
+]
 
-// importFiles.forEach((file: string) => {
-//   const comments: Array<CommentJsonObject> = getCommentsFromJsonFile(file)
+importFiles.forEach((file: string) => {
+  const comments: Array<CommentJsonObject> = getCommentsFromJsonFile(file)
 
-//   arcalastBbsAction.writeCommentsToDatabase(comments)
-// })
+  arcalastBbsObject.writeCommentsToDatabase(comments)
+})
 
-// arcalastBbsAction.saveJsonFiles()
+// arcalastBbsObject.saveJsonFiles()

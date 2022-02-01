@@ -13,9 +13,8 @@ type CommentJsonObject = {
 
 const prisma: any = new PrismaClient()
 
-// TODO: createMany を使って書き直す？（そうすると既存データのスキップできなそう）
-// https://www.prisma.io/docs/concepts/components/prisma-client/crud
-export const prismaAction: any = async (comment: CommentJsonObject) =>{
+// TODO: バルク化検討
+export const createCommentRecord: any = async (comment: CommentJsonObject) =>{
   await prisma.comment.create({
     data: {
       uuid: comment.id,
