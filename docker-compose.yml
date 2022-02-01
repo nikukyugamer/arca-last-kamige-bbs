@@ -2,13 +2,13 @@ version: '3.8'
 
 services:
   app:
-    # image: ghcr.io/nikukyugamer/alcalast_kamige_bbs:latest
+    # image: ghcr.io/nikukyugamer/arcalast_kamige_bbs:latest
     build:
       context: .
       args:
         - USER_UID_IN_CONTAINER=${USER_UID_IN_CONTAINER:-1000}
         - USER_NAME_IN_CONTAINER=toro
-    container_name: ${WEB_CONTAINER_NAME:-alcalast_bbs}
+    container_name: ${WEB_CONTAINER_NAME:-arcalast_bbs}
     volumes:
       - type: bind
         source: ./
@@ -21,7 +21,7 @@ services:
     # restart: always
   db:
     image: postgres:14.1
-    container_name: ${DB_CONTAINER_NAME:-alcalast_bbs_db}
+    container_name: ${DB_CONTAINER_NAME:-arcalast_bbs_db}
     volumes:
       - type: volume
         source: db_volume
@@ -30,12 +30,12 @@ services:
       - ${DOCKER_POSTGRES_PORT_ON_HOST:-15432}:5432
     environment:
       POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --locale=C"
-      POSTGRES_USER: alcalast_bbs
-      POSTGRES_PASSWORD: alcalast_bbs
+      POSTGRES_USER: arcalast_bbs
+      POSTGRES_PASSWORD: arcalast_bbs
     # restart: always # 任意で
 
 volumes:
   npms_storage:
-    name: alcalast_bbs_npms_storage_${DOCKER_NPMS_VOLUME_NAME:-development}
+    name: arcalast_bbs_npms_storage_${DOCKER_NPMS_VOLUME_NAME:-development}
   db_volume:
-    name: alcalast_bbs_postgres_${DOCKER_POSTGRES_VOLUME_NAME:-development}
+    name: arcalast_bbs_postgres_${DOCKER_POSTGRES_VOLUME_NAME:-development}

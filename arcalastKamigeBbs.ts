@@ -12,7 +12,7 @@ type CommentJsonObject = {
   created_at: string
 }
 
-class AlcalastKamigeBbs {
+class ArcalastKamigeBbs {
   constructor() {}
 
   writeCommentToDatabase(comment: CommentJsonObject) {
@@ -21,8 +21,11 @@ class AlcalastKamigeBbs {
 
   writeCommentsToDatabase(comments: Array<CommentJsonObject>) {
     comments.forEach((comment: CommentJsonObject) => {
-      if (!isAlreadyExists) {
-        this.writeCommentToDatabase(comment)
+      if (isAlreadyExists(comment)) {
+        // console.log(`ALREADY EXISTS: ${comment}`)
+        console.dir(comment)
+      } else {
+        // this.writeCommentToDatabase(comment)
       }
     })
   }
@@ -33,8 +36,8 @@ const importFiles: Array<string> = [
 ]
 
 importFiles.forEach((file: string) => {
-  const alcalastBbsAction: any = new AlcalastKamigeBbs()
+  const arcalastBbsAction: any = new ArcalastKamigeBbs()
   const comments: Array<CommentJsonObject> = getCommentsFromJsonFile(file)
 
-  alcalastBbsAction.writeCommentsToDatabase(comments)
+  arcalastBbsAction.writeCommentsToDatabase(comments)
 })
