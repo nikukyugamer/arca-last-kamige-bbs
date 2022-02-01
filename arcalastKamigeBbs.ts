@@ -1,5 +1,6 @@
 import { getCommentsFromJsonFile } from './getComments'
 import { prismaAction, isAlreadyExists } from './database'
+import { saveResponseJsonFiles } from './saveResponseJsonFiles'
 
 type CommentJsonObject = {
   id: string
@@ -29,15 +30,22 @@ class ArcalastKamigeBbs {
       }
     })
   }
+
+  saveJsonFiles() {
+    saveResponseJsonFiles()
+  }
 }
 
-const importFiles: Array<string> = [
-  'out/sampleResponse.json',
-]
+const arcalastBbsAction: any = new ArcalastKamigeBbs()
 
-importFiles.forEach((file: string) => {
-  const arcalastBbsAction: any = new ArcalastKamigeBbs()
-  const comments: Array<CommentJsonObject> = getCommentsFromJsonFile(file)
+// const importFiles: Array<string> = [
+//   'out/sampleResponse.json',
+// ]
 
-  arcalastBbsAction.writeCommentsToDatabase(comments)
-})
+// importFiles.forEach((file: string) => {
+//   const comments: Array<CommentJsonObject> = getCommentsFromJsonFile(file)
+
+//   arcalastBbsAction.writeCommentsToDatabase(comments)
+// })
+
+// arcalastBbsAction.saveJsonFiles()

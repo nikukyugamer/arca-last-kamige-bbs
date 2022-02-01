@@ -45,17 +45,17 @@ const apiResponseData: any = async (cursor: string | null) => {
     })
 }
 
-export const allGet = async () => {
+export const saveResponseJsonFiles = async () => {
   const responseData: ResponseData = await apiResponseData(null)
 
-  console.log('========== 1st comments ==========')
+  console.log('========== 00001st comments JSON ==========')
   fs.writeFileSync(`./out/arcalast_${'1'.padStart(5, '0')}.json`, JSON.stringify(responseData))
 
   let latestCursor: string = responseData.cursor
   // CLI実行にしてこの値を渡せるようにしたい
-  const numberOfGettingPages: number = 6
+  const numberOfGettingPages: number = 3
 
-  for (let i = 2; i < numberOfGettingPages; i++) {
+  for (let i = 2; i <= numberOfGettingPages; i++) {
     // 仮に全部取得する場合には数千リクエストが飛んでしまうので、十分な間隔を開けること
     // CLI実行にしてこの値を渡せるようにしたい
     const intervalMsec: number = 10000
@@ -64,10 +64,12 @@ export const allGet = async () => {
     const latestResponseData: ResponseData = await apiResponseData(latestCursor)
 
     const fileIndexNumberString: string = i.toString().padStart(5, '0')
-    console.log(`========== ${fileIndexNumberString}th comments ==========`)
+    console.log(`========== ${fileIndexNumberString}th comments JSON ==========`)
     fs.writeFileSync(`./out/arcalast_${fileIndexNumberString}.json`, JSON.stringify(latestResponseData))
 
     latestCursor = latestResponseData.cursor
+
+    if (!latestCursor) break
   }
 }
 
