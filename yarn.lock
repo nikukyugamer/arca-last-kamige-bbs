@@ -147,7 +147,7 @@ __metadata:
     ip: ^1.1.5
     jpeg-js: ^0.4.3
     mime: ^3.0.0
-    minimatch: ^3.0.4
+    minimatch: ^4.0.0
     ms: ^2.1.2
     once: ^1.4.0
     path-is-absolute: ^1.0.1
@@ -443,6 +443,15 @@ __metadata:
   dependencies:
     brace-expansion: ^1.1.7
   checksum: 66ac295f8a7b59788000ea3749938b0970344c841750abd96694f80269b926ebcafad3deeb3f1da2522978b119e6ae3a5869b63b13a7859a456b3408bd18a078
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^4.0.0":
+  version: 4.1.0
+  resolution: "minimatch@npm:4.1.0"
+  dependencies:
+    brace-expansion: ^1.1.7
+  checksum: 2e479ae6dc71b35e85f9cb9a06366a28ab196a4e40846998277187d5ebed1d2c10958113c4e8f307010d4636a1ded57dc71b65e428e636f18465131c39bfbec4
   languageName: node
   linkType: hard
 
