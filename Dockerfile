@@ -15,7 +15,7 @@ RUN apk --no-cache add curl \
     && chmod +x gosu-${ARCHITECTURE} \
     && mv gosu-${ARCHITECTURE} gosu
 
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 ARG USER_UID_IN_CONTAINER="1000"
 ARG USER_NAME_IN_CONTAINER="toro"
