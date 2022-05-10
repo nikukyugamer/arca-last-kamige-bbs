@@ -26,7 +26,7 @@
     "https-proxy-agent": "^5.0.0",
     "inflight": "^1.0.6",
     "inherits": "^2.0.4",
-    "ip": "^1.1.5",
+    "ip": "^2.0.0",
     "jpeg-js": "^0.4.3",
     "mime": "^3.0.0",
     "minimatch": "^5.0.0",
