@@ -44,7 +44,7 @@
     "signal-exit": "^3.0.6",
     "smart-buffer": "^4.2.0",
     "socks": "^2.6.1",
-    "socks-proxy-agent": "^6.1.1",
+    "socks-proxy-agent": "^7.0.0",
     "stack-utils": "^2.0.5",
     "wrappy": "^1.0.2",
     "ws": "^8.0.0",
