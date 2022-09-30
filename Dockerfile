@@ -2,7 +2,7 @@ FROM alpine:3.16.2 as cli
 
 WORKDIR /tmp
 
-ARG NODEJS_VERSION="14.18.3"
+ARG NODEJS_VERSION="18.10.0"
 ARG GOSU_VERSION="1.14"
 
 RUN apk --no-cache add curl \
