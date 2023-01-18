@@ -52,7 +52,7 @@
     "yazl": ">=2.5.1"
   },
   "devDependencies": {
-    "@types/node": "18.11.16",
+    "@types/node": "18.11.18",
     "axios": "1.2.3",
     "dotenv": "16.0.3",
     "prisma": "4.9.0",
