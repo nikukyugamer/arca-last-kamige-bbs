@@ -279,10 +279,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concat-map@npm:0.0.1, concat-map@npm:>=0.0.1":
+"concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
   checksum: 902a9f5d8967a3e2faf138d5cb784b9979bad2e6db5357c5b21c568df4ebe62bcb15108af1b2253744844eb964fc023fbd9afbbbb6ddd0bcc204c6fb5b7bf3af
+  languageName: node
+  linkType: hard
+
+"concat-map@npm:>=0.0.1":
+  version: 0.0.2
+  resolution: "concat-map@npm:0.0.2"
+  checksum: 07be35deea5511958c9603eff77a060a5cacc10ad8ad1b471a6cdc61abdef3adfc38f9f8bd6344eb741f486c8c4151d82afbdbdd83aef5c6498e0047cf8cc80f
   languageName: node
   linkType: hard
 
