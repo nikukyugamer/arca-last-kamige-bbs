@@ -722,11 +722,11 @@ __metadata:
   linkType: hard
 
 "stack-utils@npm:>=2.0.5":
-  version: 2.0.5
-  resolution: "stack-utils@npm:2.0.5"
+  version: 2.0.6
+  resolution: "stack-utils@npm:2.0.6"
   dependencies:
     escape-string-regexp: ^2.0.0
-  checksum: 76b69da0f5b48a34a0f93c98ee2a96544d2c4ca2557f7eef5ddb961d3bdc33870b46f498a84a7c4f4ffb781df639840e7ebf6639164ed4da5e1aeb659615b9c7
+  checksum: 052bf4d25bbf5f78e06c1d5e67de2e088b06871fa04107ca8d3f0e9d9263326e2942c8bedee3545795fc77d787d443a538345eef74db2f8e35db3558c6f91ff7
   languageName: node
   linkType: hard
 
