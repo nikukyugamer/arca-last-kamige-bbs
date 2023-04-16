@@ -657,7 +657,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"signal-exit@npm:>=3.0.6, signal-exit@npm:^3.0.2":
+"signal-exit@npm:>=3.0.6":
+  version: 4.0.0
+  resolution: "signal-exit@npm:4.0.0"
+  checksum: 5e0ba7b5fc4c66626bc5f268e07f5c634d9767ec4e6f29cb6b8b3927a7aebf466286c24784dc8052867fb60fe1bc41eb1d8901f128d845a593da070fd01b82cc
+  languageName: node
+  linkType: hard
+
+"signal-exit@npm:^3.0.2":
   version: 3.0.7
   resolution: "signal-exit@npm:3.0.7"
   checksum: a2f098f247adc367dffc27845853e9959b9e88b01cb301658cfe4194352d8d2bb32e18467c786a7fe15f1d44b233ea35633d076d5e737870b7139949d1ab6318
