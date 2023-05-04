@@ -140,12 +140,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"agent-base@npm:6, agent-base@npm:>=6.0.2, agent-base@npm:^6.0.2":
+"agent-base@npm:6, agent-base@npm:^6.0.2":
   version: 6.0.2
   resolution: "agent-base@npm:6.0.2"
   dependencies:
     debug: 4
   checksum: f52b6872cc96fd5f622071b71ef200e01c7c4c454ee68bc9accca90c98cfb39f2810e3e9aa330435835eedc8c23f4f8a15267f67c6e245d2b33757575bdac49d
+  languageName: node
+  linkType: hard
+
+"agent-base@npm:>=6.0.2":
+  version: 7.0.0
+  resolution: "agent-base@npm:7.0.0"
+  dependencies:
+    debug: ^4.3.4
+  checksum: 3ac007dd689944d265215d43ae0b235eb992e6cb42a3ad27b97bbde3c1346512bd096b926e601c53c80336f3760177827e1aa7c1fb45e089b7d785accef2ea79
   languageName: node
   linkType: hard
 
@@ -344,7 +353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:>=4.3.3, debug@npm:^4.1.1, debug@npm:^4.3.3":
+"debug@npm:4, debug@npm:>=4.3.3, debug@npm:^4.1.1, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
