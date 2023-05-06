@@ -140,7 +140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"agent-base@npm:>=6.0.2, agent-base@npm:^7.0.0":
+"agent-base@npm:>=6.0.2, agent-base@npm:^7.0.0, agent-base@npm:^7.0.1":
   version: 7.0.1
   resolution: "agent-base@npm:7.0.1"
   dependencies:
@@ -810,13 +810,13 @@ __metadata:
   linkType: hard
 
 "socks-proxy-agent@npm:>=7.0.0":
-  version: 8.0.0
-  resolution: "socks-proxy-agent@npm:8.0.0"
+  version: 8.0.1
+  resolution: "socks-proxy-agent@npm:8.0.1"
   dependencies:
-    agent-base: ^7.0.0
+    agent-base: ^7.0.1
     debug: ^4.3.4
     socks: ^2.7.1
-  checksum: 953e7b3a7010e4796c28bbf16a5249bc0f391e201782286ee53c695362a0ac0da14201937b7b3b59b0981ec044490810991a1629df5bf7ff74a28e193559ebe7
+  checksum: f6538fd16cb545094d20b9a1ae97bb2c4ddd150622ad7cc6b64c89c889d8847b7bac179757838ce5487cbac49a499537e3991c975fe13b152b76b10027470dfb
   languageName: node
   linkType: hard
 
