@@ -141,11 +141,11 @@ __metadata:
   linkType: hard
 
 "agent-base@npm:>=6.0.2, agent-base@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "agent-base@npm:7.0.0"
+  version: 7.0.1
+  resolution: "agent-base@npm:7.0.1"
   dependencies:
     debug: ^4.3.4
-  checksum: 3ac007dd689944d265215d43ae0b235eb992e6cb42a3ad27b97bbde3c1346512bd096b926e601c53c80336f3760177827e1aa7c1fb45e089b7d785accef2ea79
+  checksum: 38d4eed432734b8115baa2a034ddee618f7a27f273c1d31b374f4cc431ed5c56aae4b66a3e8ffe02747e40fd6b4322daf4b44f77ba4375c543cbdfb89bddebf1
   languageName: node
   linkType: hard
 
