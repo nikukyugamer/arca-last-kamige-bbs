@@ -140,7 +140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"agent-base@npm:>=6.0.2, agent-base@npm:^7.0.0, agent-base@npm:^7.0.1":
+"agent-base@npm:>=6.0.2, agent-base@npm:^7.0.1":
   version: 7.0.1
   resolution: "agent-base@npm:7.0.1"
   dependencies:
@@ -517,12 +517,12 @@ __metadata:
   linkType: hard
 
 "https-proxy-agent@npm:>=5.0.0":
-  version: 6.0.0
-  resolution: "https-proxy-agent@npm:6.0.0"
+  version: 6.1.0
+  resolution: "https-proxy-agent@npm:6.1.0"
   dependencies:
-    agent-base: ^7.0.0
+    agent-base: ^7.0.1
     debug: 4
-  checksum: b4dff630e5539b2c0ada3d7f9ee6af1ecada6b27a53fa2b3fd9791e273dace33800d4eda187f3d06cbf94524bd2d2626ee791e99234a7df9d32734d77fe5920c
+  checksum: ede8d54fcca7611cc1afeca8d522a43a5ce138e7d8fb393d5c6714ae824e893a35bc8fd261ce5f02ca48ab948e424f0e51be00c1beea1d52ea80cc1257d39ea6
   languageName: node
   linkType: hard
 
