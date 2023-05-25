@@ -517,12 +517,12 @@ __metadata:
   linkType: hard
 
 "https-proxy-agent@npm:>=5.0.0":
-  version: 6.2.1
-  resolution: "https-proxy-agent@npm:6.2.1"
+  version: 7.0.0
+  resolution: "https-proxy-agent@npm:7.0.0"
   dependencies:
     agent-base: ^7.0.2
     debug: 4
-  checksum: d0615fb6ae69241d6faaeb9fe51e071d093fba504e5111cb64ede40e8d701b3ddc762525c96f594e7df266b00dfeb3822bd8abbda33ab6f050a3f679062d74c4
+  checksum: c1365f5202b6a9c5c5fb1e6718e941254c2782bc51e8c57b1a7cacdccf1017278224434c963dfcdbdd4a3147a29c97d782316fabeef4e099968a627049de3347
   languageName: node
   linkType: hard
 
