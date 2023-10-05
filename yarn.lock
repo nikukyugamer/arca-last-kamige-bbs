@@ -275,9 +275,9 @@ __metadata:
   linkType: hard
 
 "balanced-match@npm:>=2.0.0":
-  version: 2.0.0
-  resolution: "balanced-match@npm:2.0.0"
-  checksum: 9a5caad6a292c5df164cc6d0c38e0eedf9a1413f42e5fece733640949d74d0052cfa9587c1a1681f772147fb79be495121325a649526957fd75b3a216d1fbc68
+  version: 3.0.0
+  resolution: "balanced-match@npm:3.0.0"
+  checksum: efde1633338ab5f98f0f07afd32c5eb21af416261b64f8e9b9f4ab55dc6d04c5efce3fb9db6cd63db710e1529d256fa194822f9f035aed0eb36abbfbd40ba3cc
   languageName: node
   linkType: hard
 
