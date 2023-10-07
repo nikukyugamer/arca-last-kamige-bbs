@@ -274,7 +274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"balanced-match@npm:>=2.0.0":
+"balanced-match@npm:>=2.0.0, balanced-match@npm:^3.0.0":
   version: 3.0.1
   resolution: "balanced-match@npm:3.0.1"
   checksum: 799bc086e80c5fe6c40e5bf486340d86ec76179017601a40dd0310ac92b44beaab19c55757a38bfd22e3b1572e5c3536e6f79050898f8fa9bbb7db4cfcf9e08e
@@ -288,7 +288,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"brace-expansion@npm:>=2.0.0, brace-expansion@npm:^2.0.1":
+"brace-expansion@npm:>=2.0.0":
+  version: 3.0.0
+  resolution: "brace-expansion@npm:3.0.0"
+  dependencies:
+    balanced-match: ^3.0.0
+  checksum: ad3c504ec505e06dbe60a9557d04d4fe062f6f3d1a9dd1007baf3ad05b53135a54de0f3b3c4694b44fcb4811b86666e499033815b7c159c6e8ca281f76de98a1
+  languageName: node
+  linkType: hard
+
+"brace-expansion@npm:^2.0.1":
   version: 2.0.1
   resolution: "brace-expansion@npm:2.0.1"
   dependencies:
