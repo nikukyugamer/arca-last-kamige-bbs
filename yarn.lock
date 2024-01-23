@@ -239,7 +239,7 @@ __metadata:
     commander: ">=9.0.0"
     concat-map: ">=0.0.1"
     debug: ">=4.3.3"
-    dotenv: 16.3.2
+    dotenv: 16.4.0
     end-of-stream: ">=1.4.4"
     escape-string-regexp: ">=5.0.0"
     extract-zip: ">=2.0.1"
@@ -428,10 +428,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:16.3.2":
-  version: 16.3.2
-  resolution: "dotenv@npm:16.3.2"
-  checksum: 917b27eeb654b95846484009326b1c52af7a7c25f7b09e2939ed49de8f98cb9895dcc04f13a39cdb078d247985e21147311ccb5bfbf2fd151afb20fa8f96de15
+"dotenv@npm:16.4.0":
+  version: 16.4.0
+  resolution: "dotenv@npm:16.4.0"
+  checksum: f39dccc0eb25345675045d91762b8c92fc853402a8b25ba02723a7e27da58cefe0593771bbea97781df09300514eedb393b6c8f7bfa547fd9f7b69f0c965cbdb
   languageName: node
   linkType: hard
 
