@@ -55,7 +55,7 @@
     "@types/node": "20.11.10",
     "axios": "1.6.7",
     "dotenv": "16.4.1",
-    "prisma": "5.8.1",
+    "prisma": "5.9.0",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
   },
