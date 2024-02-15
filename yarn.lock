@@ -1108,7 +1108,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yauzl@npm:>=2.10.0, yauzl@npm:^2.10.0":
+"yauzl@npm:>=2.10.0":
+  version: 3.0.0
+  resolution: "yauzl@npm:3.0.0"
+  dependencies:
+    buffer-crc32: ~0.2.3
+    pend: ~1.2.0
+  checksum: 64dbcfe9a6d48f8cde713c4881babce0a85f4f83c9d7c2dc9dad9cb5986cddc206f584ebdda21bb9b93b02a43ebc95e68c59e2c89cc29c7f860dba551ba86bdc
+  languageName: node
+  linkType: hard
+
+"yauzl@npm:^2.10.0":
   version: 2.10.0
   resolution: "yauzl@npm:2.10.0"
   dependencies:
