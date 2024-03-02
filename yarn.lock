@@ -321,11 +321,11 @@ __metadata:
   linkType: hard
 
 "brace-expansion@npm:>=2.0.0":
-  version: 3.0.0
-  resolution: "brace-expansion@npm:3.0.0"
+  version: 4.0.0
+  resolution: "brace-expansion@npm:4.0.0"
   dependencies:
     balanced-match: ^3.0.0
-  checksum: ad3c504ec505e06dbe60a9557d04d4fe062f6f3d1a9dd1007baf3ad05b53135a54de0f3b3c4694b44fcb4811b86666e499033815b7c159c6e8ca281f76de98a1
+  checksum: 5496dce65b1b843e2c236be65500d68234cfa3a068dd02b2aee4dcfb7b210fe114f83338bee95adb6bf8cbea1b8adf38dffe713f5785b390e5e72165ebce84c8
   languageName: node
   linkType: hard
 
