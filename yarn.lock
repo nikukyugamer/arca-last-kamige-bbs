@@ -117,6 +117,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sec-ant/readable-stream@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "@sec-ant/readable-stream@npm:0.3.2"
+  checksum: e7f1347704562824bbfef9a9a68cb4dcf75ff2cd8f4df81840de315a84c628a82e7731a8810abe98ba4b970ff8afb7a2debef2e003c530514d60bcb8317b94c9
+  languageName: node
+  linkType: hard
+
 "@tsconfig/node10@npm:^1.0.7":
   version: 1.0.9
   resolution: "@tsconfig/node10@npm:1.0.9"
@@ -551,9 +558,12 @@ __metadata:
   linkType: hard
 
 "get-stream@npm:>=6.0.0":
-  version: 8.0.1
-  resolution: "get-stream@npm:8.0.1"
-  checksum: 01e3d3cf29e1393f05f44d2f00445c5f9ec3d1c49e8179b31795484b9c117f4c695e5e07b88b50785d5c8248a788c85d9913a79266fc77e3ef11f78f10f1b974
+  version: 9.0.0
+  resolution: "get-stream@npm:9.0.0"
+  dependencies:
+    "@sec-ant/readable-stream": ^0.3.2
+    is-stream: ^4.0.1
+  checksum: b899388a972836e79c848e27b89e0dce5d60ecdc59d6c140340a41dc2efa0416e9e03f566399a80a02edc38e18f19258c3749d97de354d38aff3644aca7b0b2e
   languageName: node
   linkType: hard
 
@@ -643,6 +653,13 @@ __metadata:
   version: 3.0.0
   resolution: "is-fullwidth-code-point@npm:3.0.0"
   checksum: 44a30c29457c7fb8f00297bce733f0a64cd22eca270f83e58c105e0d015e45c019491a4ab2faef91ab51d4738c670daff901c799f6a700e27f7314029e99e348
+  languageName: node
+  linkType: hard
+
+"is-stream@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "is-stream@npm:4.0.1"
+  checksum: cbea3f1fc271b21ceb228819d0c12a0965a02b57f39423925f99530b4eb86935235f258f06310b67cd02b2d10b49e9a0998f5ececf110ab7d3760bae4055ad23
   languageName: node
   linkType: hard
 
