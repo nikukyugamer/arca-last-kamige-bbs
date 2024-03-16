@@ -117,10 +117,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sec-ant/readable-stream@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@sec-ant/readable-stream@npm:0.3.2"
-  checksum: e7f1347704562824bbfef9a9a68cb4dcf75ff2cd8f4df81840de315a84c628a82e7731a8810abe98ba4b970ff8afb7a2debef2e003c530514d60bcb8317b94c9
+"@sec-ant/readable-stream@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@sec-ant/readable-stream@npm:0.4.1"
+  checksum: eb56f72a70995f725269f1c1c206d6dbeb090e88413b1302a456c600041175a7a484c2f0172454f7bed65a8ab95ffed7647d8ad03e6c23b1e3bbc9845f78cd17
   languageName: node
   linkType: hard
 
@@ -558,12 +558,12 @@ __metadata:
   linkType: hard
 
 "get-stream@npm:>=6.0.0":
-  version: 9.0.0
-  resolution: "get-stream@npm:9.0.0"
+  version: 9.0.1
+  resolution: "get-stream@npm:9.0.1"
   dependencies:
-    "@sec-ant/readable-stream": ^0.3.2
+    "@sec-ant/readable-stream": ^0.4.1
     is-stream: ^4.0.1
-  checksum: b899388a972836e79c848e27b89e0dce5d60ecdc59d6c140340a41dc2efa0416e9e03f566399a80a02edc38e18f19258c3749d97de354d38aff3644aca7b0b2e
+  checksum: 631df71d7bd60a7f373094d3c352e2ce412b82d30b1b0ec562e5a4aced976173a4cc0dabef019050e1aceaffb1f0e086349ab3d14377b0b7280510bd75bd3e1e
   languageName: node
   linkType: hard
 
