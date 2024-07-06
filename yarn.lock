@@ -729,11 +729,11 @@ __metadata:
   linkType: hard
 
 "mime@npm:>=3.0.0":
-  version: 4.0.3
-  resolution: "mime@npm:4.0.3"
+  version: 4.0.4
+  resolution: "mime@npm:4.0.4"
   bin:
     mime: bin/cli.js
-  checksum: 17f7bf9f566f0127fac3b93acd5dd37fcfa7cce5842b9fe599fdf7a716cbc3d8b69aac0e8a1a5df834d44a610a51d04eea6e38d2dbc2f1a2326e9a759a5821dc
+  checksum: 729904cd8b3913062017970ffa25c4303356f80dad33d472b47244e3baa35ab748ce005fb9a66ae854266fa73396ef219287bf6db311c8376ea3d9cfc5dda107
   languageName: node
   linkType: hard
 
