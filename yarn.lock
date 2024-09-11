@@ -1274,12 +1274,12 @@ __metadata:
   linkType: hard
 
 "pump@npm:>=3.0.0, pump@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "pump@npm:3.0.1"
+  version: 3.0.2
+  resolution: "pump@npm:3.0.2"
   dependencies:
     end-of-stream: ^1.1.0
     once: ^1.3.1
-  checksum: 9e79c813cccaa848349845dad7fe8c112776eeab27d5d714161253622d44ccd05a1f530656d2e9db15d05acf71b25fd9165663527b07ec1282c5aca72ebb0908
+  checksum: e0c4216874b96bd25ddf31a0b61a5613e26cc7afa32379217cf39d3915b0509def3565f5f6968fafdad2894c8bbdbd67d340e84f3634b2a29b950cffb6442d9f
   languageName: node
   linkType: hard
 
