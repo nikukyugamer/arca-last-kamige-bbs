@@ -384,7 +384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"buffer-crc32@npm:>=0.2.13":
+"buffer-crc32@npm:>=0.2.13, buffer-crc32@npm:^1.0.0":
   version: 1.0.0
   resolution: "buffer-crc32@npm:1.0.0"
   checksum: bc114c0e02fe621249e0b5093c70e6f12d4c2b1d8ddaf3b1b7bbe3333466700100e6b1ebdc12c050d0db845bc582c4fce8c293da487cc483f97eea027c480b23
@@ -1646,11 +1646,11 @@ __metadata:
   linkType: hard
 
 "yazl@npm:>=2.5.1":
-  version: 2.5.1
-  resolution: "yazl@npm:2.5.1"
+  version: 3.0.0
+  resolution: "yazl@npm:3.0.0"
   dependencies:
-    buffer-crc32: ~0.2.3
-  checksum: daec5154b5485d8621bfea359e905ddca0b2f068430a4aa0a802bf5d67391157a383e0c2767acccbf5964264851da643bc740155a9458e2d8dce55b94c1cc2ed
+    buffer-crc32: ^1.0.0
+  checksum: e83fbfc3b3025a1a5fb08683376a607361a6a63d6f78ab8b28c92b878c0f4526dbb84b0719d7f44337f53308d86ae99eaad395e4e876ca20abda7eb528b74a95
   languageName: node
   linkType: hard
 
