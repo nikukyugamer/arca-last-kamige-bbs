@@ -1646,11 +1646,11 @@ __metadata:
   linkType: hard
 
 "yazl@npm:>=2.5.1":
-  version: 3.1.0
-  resolution: "yazl@npm:3.1.0"
+  version: 3.2.0
+  resolution: "yazl@npm:3.2.0"
   dependencies:
     buffer-crc32: ^1.0.0
-  checksum: cbfb1f717aa0eefa737fbde8abfabc430e4bd14c967b30a453f8eab380a471ddf3b8f15a0be9915be081afe5cfa313167a1acee5a2ac7ac22743b626d54c2d03
+  checksum: 90cdb750e4d1d0fb6562386ea46dc70a9fd9dd8688bb0d4649c1c4dfd11159f398156ddf3bf2dff2ac7785c54cd3770279fe3d92ef2af3b0fc2b73ed79972915
   languageName: node
   linkType: hard
 
