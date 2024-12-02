@@ -82,21 +82,21 @@ __metadata:
   linkType: hard
 
 "@prisma/client@npm:>=4.2.0":
-  version: 6.0.0
-  resolution: "@prisma/client@npm:6.0.0"
+  version: 6.0.1
+  resolution: "@prisma/client@npm:6.0.1"
   peerDependencies:
     prisma: "*"
   peerDependenciesMeta:
     prisma:
       optional: true
-  checksum: f856bdd3137d102636482e1ee5046d2d384055c32dded5ca2b5902dd2b6f2ad8c666c05048ff377e015e5304eee1c6c1662e1ade2a59638270b9b726a5d473d1
+  checksum: a860cba31cd69fb845af0c2e6c461847e66560a2719d7786f1d3bd8de245c99e794aee7e94f1f8339d307161f57070dc6ef138283a57b5d92077f39e96ca40ba
   languageName: node
   linkType: hard
 
-"@prisma/debug@npm:6.0.0":
-  version: 6.0.0
-  resolution: "@prisma/debug@npm:6.0.0"
-  checksum: 3c0a6cfd7f1f06903b8fbbda2c932a2ebb6851590bf7c8c6d299a643a568294f53dca8c6155f46e74b873274952c4ba38f667940bd80ac033611184f804e52cb
+"@prisma/debug@npm:6.0.1":
+  version: 6.0.1
+  resolution: "@prisma/debug@npm:6.0.1"
+  checksum: 526e0115ab9f6e6e357a92a29ff605fbf1152ab98d8663036ed7a4ac19c6e4e75932f6135bf00fc331c04612706e08ba5ebb7f96bbdad9c009fed856aad39499
   languageName: node
   linkType: hard
 
@@ -107,35 +107,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:6.0.0":
-  version: 6.0.0
-  resolution: "@prisma/engines@npm:6.0.0"
+"@prisma/engines@npm:6.0.1":
+  version: 6.0.1
+  resolution: "@prisma/engines@npm:6.0.1"
   dependencies:
-    "@prisma/debug": 6.0.0
+    "@prisma/debug": 6.0.1
     "@prisma/engines-version": 5.23.0-27.5dbef10bdbfb579e07d35cc85fb1518d357cb99e
-    "@prisma/fetch-engine": 6.0.0
-    "@prisma/get-platform": 6.0.0
-  checksum: e62af201ca363ddb1cb278919ef705217ebe29d6373cea38bba4ab6646dd883823e53d6ea084a3f129c25874f2705089d2daccc8670ea7bf7042ed0c30ee9837
+    "@prisma/fetch-engine": 6.0.1
+    "@prisma/get-platform": 6.0.1
+  checksum: a61bdb842fa86a44337d876e14e9f903862d9d7eb133e30a217b94da1b0d839cbfc82532e738194ccf045a9aa452f19c1328ac6782076a83df71839e9fc5573b
   languageName: node
   linkType: hard
 
-"@prisma/fetch-engine@npm:6.0.0":
-  version: 6.0.0
-  resolution: "@prisma/fetch-engine@npm:6.0.0"
+"@prisma/fetch-engine@npm:6.0.1":
+  version: 6.0.1
+  resolution: "@prisma/fetch-engine@npm:6.0.1"
   dependencies:
-    "@prisma/debug": 6.0.0
+    "@prisma/debug": 6.0.1
     "@prisma/engines-version": 5.23.0-27.5dbef10bdbfb579e07d35cc85fb1518d357cb99e
-    "@prisma/get-platform": 6.0.0
-  checksum: 7d2c4cd00a6e2b2d3837a0e7209dbe358ea230a73133ee38430ea58eaec75c5772cf19759950d790156f7feaa19f84a931ab43057c66b979e60b86839d1f7da0
+    "@prisma/get-platform": 6.0.1
+  checksum: ab4196aceb843ad81a888a44db674fba32c1af70cafcfb0f5987fe3eb7c4441de901b05e7ffbb1d6c5c3c33df79bc646f2d721c36c75e90799cd7133a7b15651
   languageName: node
   linkType: hard
 
-"@prisma/get-platform@npm:6.0.0":
-  version: 6.0.0
-  resolution: "@prisma/get-platform@npm:6.0.0"
+"@prisma/get-platform@npm:6.0.1":
+  version: 6.0.1
+  resolution: "@prisma/get-platform@npm:6.0.1"
   dependencies:
-    "@prisma/debug": 6.0.0
-  checksum: 06504286389d56095f9476949535991bebf6e1ff783bfb2aae52862105d091b6578777ce0c0f05696c277b0b1958bdecd6db53350ebbbbf98e9fb9dc340dc25d
+    "@prisma/debug": 6.0.1
+  checksum: 6aae982e6f4f8b89dcaf2da77b9aeede6853b28364d62c8bfd0912c324e0ec664810dc32cd69971c1f8df24d95f0d3f8edd455e240d810d3f0db4bd592fc1d4a
   languageName: node
   linkType: hard
 
@@ -306,7 +306,7 @@ __metadata:
     path-is-absolute: ">=1.0.1"
     pend: ">=1.2.0"
     pngjs: ">=6.0.0"
-    prisma: 6.0.0
+    prisma: 6.0.1
     progress: ">=2.0.3"
     proper-lockfile: ">=4.1.2"
     proxy-from-env: ">=1.1.0"
@@ -1216,18 +1216,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:6.0.0":
-  version: 6.0.0
-  resolution: "prisma@npm:6.0.0"
+"prisma@npm:6.0.1":
+  version: 6.0.1
+  resolution: "prisma@npm:6.0.1"
   dependencies:
-    "@prisma/engines": 6.0.0
+    "@prisma/engines": 6.0.1
     fsevents: 2.3.3
   dependenciesMeta:
     fsevents:
       optional: true
   bin:
     prisma: build/index.js
-  checksum: 2d5685dc8f0376ac334099f4684c1e5f772664046208bffaa70abe9980f8025511dcc12e392febb6619539ddece678a1f5ba3ed232af5160c37581058374acdf
+  checksum: 8c3527e53ee81820d1919bc00dcd5344fe5b01cb8a1d6227a3565f5e82a53de9c1a5cec4db617cf3a01adc0f70fb07ce83857023aac9b023abd7200c8f0fb3c5
   languageName: node
   linkType: hard
 
