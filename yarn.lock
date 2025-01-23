@@ -181,12 +181,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.10.8":
-  version: 22.10.8
-  resolution: "@types/node@npm:22.10.8"
+"@types/node@npm:22.10.9":
+  version: 22.10.9
+  resolution: "@types/node@npm:22.10.9"
   dependencies:
     undici-types: ~6.20.0
-  checksum: 4f62441d18d64cd0f4c2042b5ae5267f975e3c2f51c048ea24422db5ed313a1611cf33694051640c8503da027004d085fc53cdc95ea72f15edd90c839366f5dd
+  checksum: bd9a94fe5de516dcf13b4e9268696a99be3ba7146322c92b5ca3ea5368846cbb851843e2dda7030636653738405ea67e7bd972c630733420f84e199ad2c440ec
   languageName: node
   linkType: hard
 
@@ -274,7 +274,7 @@ __metadata:
   resolution: "arcalast-kamige-bbs@workspace:."
   dependencies:
     "@prisma/client": ">=4.2.0"
-    "@types/node": 22.10.8
+    "@types/node": 22.10.9
     agent-base: ">=6.0.2"
     axios: 1.7.9
     balanced-match: ">=2.0.0"
