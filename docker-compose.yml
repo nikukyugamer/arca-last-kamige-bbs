@@ -20,7 +20,7 @@ services:
     stdin_open: true
     # restart: always
   db:
-    image: postgres:17.3
+    image: postgres:17.4
     container_name: ${DB_CONTAINER_NAME:-arcalast_bbs_db}
     volumes:
       - type: volume
