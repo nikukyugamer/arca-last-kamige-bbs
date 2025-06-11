@@ -338,20 +338,20 @@ __metadata:
   linkType: hard
 
 "brace-expansion@npm:>=2.0.0":
-  version: 4.0.0
-  resolution: "brace-expansion@npm:4.0.0"
+  version: 4.0.1
+  resolution: "brace-expansion@npm:4.0.1"
   dependencies:
     balanced-match: ^3.0.0
-  checksum: 5496dce65b1b843e2c236be65500d68234cfa3a068dd02b2aee4dcfb7b210fe114f83338bee95adb6bf8cbea1b8adf38dffe713f5785b390e5e72165ebce84c8
+  checksum: e75879c6f2defba2359b8d92ab9e0c9b884ecca2a65d686f252650d5e40f40209385aec4247acbe9fb2ed274330b25d55b71bb99a02386b2122573d40b3e64d1
   languageName: node
   linkType: hard
 
 "brace-expansion@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "brace-expansion@npm:2.0.1"
+  version: 2.0.2
+  resolution: "brace-expansion@npm:2.0.2"
   dependencies:
     balanced-match: ^1.0.0
-  checksum: a61e7cd2e8a8505e9f0036b3b6108ba5e926b4b55089eeb5550cd04a471fe216c96d4fe7e4c7f995c728c554ae20ddfc4244cad10aef255e72b62930afd233d1
+  checksum: 01dff195e3646bc4b0d27b63d9bab84d2ebc06121ff5013ad6e5356daa5a9d6b60fa26cf73c74797f2dc3fbec112af13578d51f75228c1112b26c790a87b0488
   languageName: node
   linkType: hard
 
