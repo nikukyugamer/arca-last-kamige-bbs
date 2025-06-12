@@ -330,28 +330,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"balanced-match@npm:^1.0.0":
-  version: 1.0.2
-  resolution: "balanced-match@npm:1.0.2"
-  checksum: 9706c088a283058a8a99e0bf91b0a2f75497f185980d9ffa8b304de1d9e58ebda7c72c07ebf01dadedaac5b2907b2c6f566f660d62bd336c3468e960403b9d65
-  languageName: node
-  linkType: hard
-
-"brace-expansion@npm:>=2.0.0":
+"brace-expansion@npm:>=2.0.0, brace-expansion@npm:^4.0.1":
   version: 4.0.1
   resolution: "brace-expansion@npm:4.0.1"
   dependencies:
     balanced-match: ^3.0.0
   checksum: e75879c6f2defba2359b8d92ab9e0c9b884ecca2a65d686f252650d5e40f40209385aec4247acbe9fb2ed274330b25d55b71bb99a02386b2122573d40b3e64d1
-  languageName: node
-  linkType: hard
-
-"brace-expansion@npm:^2.0.1":
-  version: 2.0.2
-  resolution: "brace-expansion@npm:2.0.2"
-  dependencies:
-    balanced-match: ^1.0.0
-  checksum: 01dff195e3646bc4b0d27b63d9bab84d2ebc06121ff5013ad6e5356daa5a9d6b60fa26cf73c74797f2dc3fbec112af13578d51f75228c1112b26c790a87b0488
   languageName: node
   linkType: hard
 
@@ -757,11 +741,11 @@ __metadata:
   linkType: hard
 
 "minimatch@npm:>=5.0.0, minimatch@npm:^10.0.0":
-  version: 10.0.1
-  resolution: "minimatch@npm:10.0.1"
+  version: 10.0.2
+  resolution: "minimatch@npm:10.0.2"
   dependencies:
-    brace-expansion: ^2.0.1
-  checksum: f5b63c2f30606091a057c5f679b067f84a2cd0ffbd2dbc9143bda850afd353c7be81949ff11ae0c86988f07390eeca64efd7143ee05a0dab37f6c6b38a2ebb6c
+    brace-expansion: ^4.0.1
+  checksum: af30bc79127c66598035e4fe0f7f693824e46bdcb74478a4f507b7d7f8ba259c823f339fb1b571549e5f970c04fa524c8103c5f26c8a656e032eeb154c57e6cf
   languageName: node
   linkType: hard
 
