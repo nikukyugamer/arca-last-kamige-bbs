@@ -339,7 +339,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"brace-expansion@npm:>=2.0.0, brace-expansion@npm:^4.0.1":
+"brace-expansion@npm:>=2.0.0":
   version: 4.0.1
   resolution: "brace-expansion@npm:4.0.1"
   dependencies:
@@ -745,16 +745,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:>=5.0.0":
-  version: 10.0.2
-  resolution: "minimatch@npm:10.0.2"
-  dependencies:
-    brace-expansion: ^4.0.1
-  checksum: af30bc79127c66598035e4fe0f7f693824e46bdcb74478a4f507b7d7f8ba259c823f339fb1b571549e5f970c04fa524c8103c5f26c8a656e032eeb154c57e6cf
-  languageName: node
-  linkType: hard
-
-"minimatch@npm:^10.0.3":
+"minimatch@npm:>=5.0.0, minimatch@npm:^10.0.3":
   version: 10.0.3
   resolution: "minimatch@npm:10.0.3"
   dependencies:
