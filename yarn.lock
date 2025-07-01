@@ -180,12 +180,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.15.34":
-  version: 22.15.34
-  resolution: "@types/node@npm:22.15.34"
+"@types/node@npm:22.16.0":
+  version: 22.16.0
+  resolution: "@types/node@npm:22.16.0"
   dependencies:
     undici-types: ~6.21.0
-  checksum: bc0846b6130975afca65bfe6d43d732e621b583aaa500a90569799926e0317b63044a32226ab49cd07d966887ac44ed6789bf8e16e2af0f9442ebd6784e1f290
+  checksum: fccc24b9cfa95e165fb6a22871c812c9b021b0c686ced9b1572e1bd79ac3f8c78b36c04edfb2c96e10a8a1247c026d1dcad91c0c3e62dccf414057a37bac729d
   languageName: node
   linkType: hard
 
@@ -256,7 +256,7 @@ __metadata:
   resolution: "arcalast-kamige-bbs@workspace:."
   dependencies:
     "@prisma/client": ">=4.2.0"
-    "@types/node": 22.15.34
+    "@types/node": 22.16.0
     agent-base: ">=6.0.2"
     axios: 1.10.0
     balanced-match: ">=2.0.0"
