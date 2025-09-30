@@ -57,7 +57,7 @@
     "dotenv": "17.2.3",
     "prisma": "6.16.3",
     "ts-node": "10.9.2",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   },
   "homepage": "https://github.com/nikukyugamer/arcalast-kamige-bbs#readme",
   "keywords": [
