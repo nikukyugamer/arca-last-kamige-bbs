@@ -71,5 +71,6 @@
   },
   "scripts": {
     "dev:playwright:exec": "tsc appOnPlaywright.ts && node appOnPlaywright.js"
-  }
+  },
+  "packageManager": "yarn@4.12.0"
 }
