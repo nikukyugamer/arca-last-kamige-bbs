@@ -1373,7 +1373,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"proxy-from-env@npm:>=1.1.0, proxy-from-env@npm:^1.1.0":
+"proxy-from-env@npm:>=1.1.0":
+  version: 2.0.0
+  resolution: "proxy-from-env@npm:2.0.0"
+  checksum: 10c0/75d2c915f1c822fa80fd20d450856b2ee9478607408e29ba3d4b1433cfe76d7bf89bd66b6aebfa60eccfd405b04147cca2ffec45b6529fc405465ac7962c133e
+  languageName: node
+  linkType: hard
+
+"proxy-from-env@npm:^1.1.0":
   version: 1.1.0
   resolution: "proxy-from-env@npm:1.1.0"
   checksum: 8/ed7fcc2ba0a33404958e34d95d18638249a68c430e30fcb6c478497d72739ba64ce9810a24f53a7d921d0c065e5b78e3822759800698167256b04659366ca4d4
