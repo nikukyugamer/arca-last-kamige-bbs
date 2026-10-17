@@ -135,18 +135,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client-runtime-utils@npm:7.1.0":
-  version: 7.1.0
-  resolution: "@prisma/client-runtime-utils@npm:7.1.0"
-  checksum: 10/c84f22afb632cd2a7306db9793835e5d42339b51982dd31eb9984720dae8ad21a32fce845b9d92e5c178146c68e86cbbb81f93a91ec92b3511beee49430e17aa
+"@prisma/client-runtime-utils@npm:7.10.1":
+  version: 7.10.1
+  resolution: "@prisma/client-runtime-utils@npm:7.10.1"
+  checksum: 10c0/516f7d049381108d0f5d6014e206c5224878350ce08bc85ef63ff3a809321f559f03264b880fde88cd1fd04bd06779016428b7a032b1fa521aa57b54adebc93e
   languageName: node
   linkType: hard
 
 "@prisma/client@npm:>=4.2.0":
-  version: 7.1.0
-  resolution: "@prisma/client@npm:7.1.0"
+  version: 7.10.1
+  resolution: "@prisma/client@npm:7.10.1"
   dependencies:
-    "@prisma/client-runtime-utils": "npm:7.1.0"
+    "@prisma/client-runtime-utils": "npm:7.10.1"
   peerDependencies:
     prisma: "*"
     typescript: ">=5.4.0"
@@ -155,7 +155,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/f073a8d6cee38c4965501b237b0aaee4146643ecd28c6eeec59a787201f59b3c1ddda7aeb3d094496bdf3dba4018ee0bfd28c69008b54f64429a0d21a1cfe0a9
+  checksum: 10c0/742cf5c6c8a1160a8ef7c7e14e3dc1072d6430e4f258a47b41b4f1d96d39b2f0616691d597862cb78613efd72a99376e413c01dc6cebde3b89f7020b1d1fc74a
   languageName: node
   linkType: hard
 
